@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+  background: url(https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  color: white;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
