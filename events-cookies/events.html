@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Events</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+
+      <body>
+        <div id="page">
+          <h1>Diana's Delicious Desserts</h1>
+          <h2>Create New Account</h2>
+            
+          <form>
+            <label for="username">Create a username: </label>
+            <input type="text" id="username" /><div id="feedback"></div>
+
+            <label for="password">Create a password: </label>
+            <input type="password" id="password" /><div id="passwordFeedback"></div>
+
+
+            <label for="confirmPass">Confirm password: </label>
+            <input type="password" id="txtConfirmPassword" /><div id="confirmPasswordFeedback"></div>
+
+            <label for="package" class="selectbox"> Select How Many: </label>
+                <select id="package">
+                  <option value="annual">$12 per 2 Dozen</option>
+                  <option value="monthly">$8 per Dozen</option>
+                </select>
+            <div id="packageHint" class="tip"></div>
+                <input type="checkbox" id="terms" />
+                <label for="terms" class="checkbox"> Check to agree to terms &amp; conditions</label>
+            <div id="termsHint" class="warning"></div>
+              <input type="submit" value="sign up" />
+            </form>
+        </div>
+          
+          <script src="main.js"></script>
+      </body>
+</html>
