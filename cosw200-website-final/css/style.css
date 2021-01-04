@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Fredericka the Great';
+}
+
+.txt-type > .txt {
+    border-right: 0.2rem solid #ECEEEF;
+}
+    /*Do not mess with, it is something else*/
+.parallax { 
+    /* Full height */
+    height: 100%;
+    width: auto;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/744667/pexels-photo-744667.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+.img1 {
+    height: 1000px;
+}
+
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+}
+
+header h2 {
+    padding: 1em 0 0 3em;
+    font-family: 'Fredericka the Great';
+    font-size: 40px;
+    color: #ECEEEF;
+    background-color: #8C536D;
+}
+
+#navbar {
+    background-color: #8C536D;
+    border-bottom: 5px solid #221f29;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ECEEEF;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sticky #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    width: 75%;
+    clear: both;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ECEEEF;
+    padding: 4em 0 0 0;
+}
+
+.full-width {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+#about-me .full-width {
+    background-color: #221f29;
+    height: 380px;
+}
+
+#about-me h2 {
+    color: #ECEEEF; 
+    font-size: 36px;
+    padding-top: .50em;
+    padding-bottom: .50em;
+}
+    
+#about-me p {
+    font-size: 21px;
+    color: #ECEEEF;
+    line-height: 40px;
+    background-color: #221f29;
+    text-align: block;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ECEEEF;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.picture {
+    border: 1px solid #221f29;
+    background: #737C87;
+    padding: 2em;
+    width: 350px;
+    height: 200px;
+}
+
+.box {
+    padding: 35px 25px 35px 25px;
+}
+
+#profile p {
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 275px;
+    float: right;
+    font-family: 'Old Standard TT', serif;
+    line-height: 1.5em;
+    font-size: 21px;
+}
+   
+#profile {
+    background-color: #8C536D;
+    padding-top: 1em;
+    height: 380px;
+    border-top: 5px solid #221f29;
+    border-bottom: 5px solid #221f29;
+}
+
+#profile .half-width .photo {
+    height: 200px;
+    width: auto;
+    padding: 60px 0 0 275px;
+}
+
+.email {
+    font-size: 1em;
+    color: #ECEEEF;
+}
+
+.container-2 {
+    max-width: 760px;
+    margin: auto;
+    padding: 70px;
+    height: 700px;
+    
+}
+
+#certificates {
+     background-color: #8c8c94;
+}
+
+footer .full-width .half-width {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #70B2CB;
+}
+
+footer .full-width {
+    width: 100%;
+    background-color: #70B2CB;
+    border-top: 5px solid #221f29;
+}
+
+footer .half-width-right {
+    line-height: 165px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box2 {
+    padding: 30px 15px 0px 15px;
+}
+
+.main-img img {
+    height: 450px;
+    width: auto;
+}
+
+.imgs img {
+    height: 100px;
+    width: auto;
+}
+
+.main-img img, 
+.imgs img {
+    width: 100%; 
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 7px;
+    padding-top: 7px;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        position: relative;
+        margin: 20px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+     body {
+        position: relative;
+        margin: 20px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        position: relative;
+        margin: 20px;
+        width: auto;
+    }
+}
